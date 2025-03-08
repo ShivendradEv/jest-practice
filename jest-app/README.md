@@ -4,6 +4,7 @@ Jest and react testing library configuration in vite project
 ## Steps
 - npm install --save-dev jest babel-jest @babel/preset-env @babel/preset-react @testing-library/react @testing-library/jest-dom @testing-library/user-event
 - npm install --save-dev jest-environment-jsdom
+- npm install identity-obj-proxy --save-dev
 - create **jest.config.js**
 ```js
 export default {
