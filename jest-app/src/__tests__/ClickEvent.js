@@ -20,6 +20,8 @@ describe('Test counter', () => {
         const decrementBtn = screen.getByTestId("decrement");
         fireEvent.click(decrementBtn);
         expect(Number(count.textContent)).toBe(-1);
+        fireEvent.click(decrementBtn);
+        expect(Number(count.textContent)).toBe(-2);
     });
 
 })
